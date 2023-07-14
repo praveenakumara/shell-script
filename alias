@@ -1,0 +1,7 @@
+## to write alias i machine
+ls -al | awk '{print $8}' ### its print the 8th column ,if you give 6th column it print that one
+
+
+## to save alias
+alias <name>=<"command">
+alias pra="ls -al | awk '{print $9}' ## this will save pra varible ..when you see ls -al just type pra thats is enough
